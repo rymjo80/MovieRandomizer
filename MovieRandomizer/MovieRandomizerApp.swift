@@ -9,9 +9,12 @@ import SwiftUI
 
 @main
 struct MovieRandomizerApp: App {
+    @StateObject private var vc = MovieModelViewController()
+    
     var body: some Scene {
         WindowGroup {
             ContentView()
+                .environmentObject(vc)
         }
     }
 }

@@ -1,0 +1,100 @@
+[
+    {
+        "id": 1,
+        "title": "It's A Wonderful Life",
+        "releaseYear": 1946,
+        "animated": false,
+        "played": true
+    },
+    {
+        "id": 2,
+        "title": "The Santa Clause",
+        "releaseYear": 1994,
+        "animated": false,
+        "played": true
+    },
+    {
+        "id": 3,
+        "title": "The Santa Clause 2",
+        "releaseYear": 2002,
+        "animated": false,
+        "played": false
+    },
+    {
+        "id": 4,
+        "title": "The Santa Clause 3",
+        "releaseYear": 2006,
+        "animated": false,
+        "played": false
+    },
+    {
+        "id": 5,
+        "title": "How the Grinch Stole Christmas",
+        "releaseYear": 2000,
+        "animated": false,
+        "played": true
+    },
+    {
+        "id": 6,
+        "title": "Christmas with the Kranks",
+        "releaseYear": 2004,
+        "animated": false,
+        "played": false
+    },
+    {
+        "id": 7,
+        "title": "The Polar Express",
+        "releaseYear": 2004,
+        "animated": true,
+        "played": false
+    },
+    {
+        "id": 8,
+        "title": "Elf",
+        "releaseYear": 2003,
+        "animated": false,
+        "played": false
+    },
+    {
+        "id": 9,
+        "title": "Home Alone",
+        "releaseYear": 1990,
+        "animated": false,
+        "played": false
+    },
+    {
+        "id": 10,
+        "title": "Home Alone 2",
+        "releaseYear": 1992,
+        "animated": false,
+        "played": false
+    },
+    {
+        "id": 11,
+        "title": "White Christmas",
+        "releaseYear": 1954,
+        "animated": false,
+        "played": false
+    },
+    {
+        "id": 12,
+        "title": "A Charlie Brown Christmas",
+        "releaseYear": 1965,
+        "animated": true,
+        "played": false
+    },
+    {
+        "id": 13,
+        "title": "The Christmas Chronicles",
+        "releaseYear": 2018,
+        "animated": false,
+        "played": false
+    },
+    {
+        "id": 14,
+        "title": "The Christmas Chronicles 2",
+        "releaseYear": 2020,
+        "animated": false,
+        "played": false
+    }
+]
