@@ -48,10 +48,10 @@ class MovieModelViewController : ObservableObject {
         if manager.fileExists(atPath: path) {
             setMovieCollection(path)
         } else {
-            let bundle = Bundle.main
-            if let path = bundle.path(forResource: "MoviesData", ofType: "json") {
-                setMovieCollection(path)
-            }
+//            let bundle = Bundle.main
+//            if let path = bundle.path(forResource: "MoviesData", ofType: "json") {
+//                setMovieCollection(path)
+//            }
         }
         updateMovieLists()
     }

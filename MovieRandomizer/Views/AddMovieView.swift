@@ -11,10 +11,10 @@ struct AddMovieView : View {
     @EnvironmentObject var vc: MovieModelViewController
     @Environment(\.dismiss) var dismiss
     @State private var title = String()
-    @State private var year = 1926
+    @State private var year = Int()
     @State private var animated = Bool()
     private var played = false
-    @State private var newMovie = MovieModel(id: 0, title: "", releaseYear: 1926)
+    @State private var newMovie = MovieModel(id: 0, title: "", releaseYear: 0)
     @State private var errors = [String]()
 
     var body : some View {
@@ -54,7 +54,7 @@ struct AddMovieView : View {
                         
                         Button("Clear", role: .destructive, action: {
                             title = ""
-                            year = 1926
+                            year = 0
                             animated = false
                             errors = []
                             dismiss()

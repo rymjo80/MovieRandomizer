@@ -34,6 +34,7 @@ struct MovieView: View {
             }
             
         }
+        .padding(10)
     }
 }
 
